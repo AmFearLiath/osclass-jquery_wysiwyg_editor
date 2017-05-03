@@ -1,0 +1,347 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jQuery WYSIWYG Editor\n"
+"POT-Creation-Date: 2016-02-10 07:57+0100\n"
+"PO-Revision-Date: 2016-02-10 07:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: Liath <amfearliath@gmx.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;_e;__;_m\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: index.php\n"
+"X-Poedit-SearchPath-2: admin/config.php\n"
+"X-Poedit-SearchPath-3: admin/help.php\n"
+"X-Poedit-SearchPath-4: classes/jQWE.class.php\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: admin/config.php:46 admin/config.php:50
+msgid "<strong>All Settings saved.</strong> Your plugin ist now configured"
+msgstr ""
+"<strong>Einstellungen gespeichert.</strong> Dein Plugin ist jetzt "
+"konfiguriert"
+
+#: admin/config.php:55 admin/config.php:59
+msgid ""
+"<strong>Error.</strong> Your settings can not be saved, please try again"
+msgstr ""
+"<strong>Fehler.</strong> Deine Einstellungen konnten nicht gespeichert "
+"werden, bitte versuche es erneut"
+
+#: admin/config.php:68 admin/help.php:19
+msgid "jQuery WYSIWYG Editor"
+msgstr "jQuery WYSIWYG Editor"
+
+#: admin/config.php:78
+msgid "Placeholder"
+msgstr "Platzhalter"
+
+#: admin/config.php:79
+msgid ""
+"Here you can define, which placeholder should appear in the editor and the "
+"URL-Popup."
+msgstr ""
+"Hier kannst Du bestimmen, welche Platzhalter im Editor und im URL-Popup "
+"verwendet werden"
+
+#: admin/config.php:83
+msgid ""
+"<strong>Editor</strong> Which placeholder should be appear in the editor "
+"window"
+msgstr ""
+"<strong>Editor</strong> Welcher Platzhalter soll im Editorfenster erscheinen"
+
+#: admin/config.php:89
+msgid ""
+"<strong>URL-Popup</strong> Which placeholder should be appear in the URL-"
+"Popup"
+msgstr ""
+"<strong>URL-Popup</strong> Welcher Platzhalter soll im URL-Popup erscheinen"
+
+#: admin/config.php:95
+msgid "Allow HTML"
+msgstr "HTML erlauben"
+
+#: admin/config.php:96
+msgid ""
+"Here you can define, whether the user is allowed to use HTML in the editor."
+msgstr "Hier kannst Du festlegen, ob der Benutzer HTML verwenden darf"
+
+#: admin/config.php:101
+msgid ""
+"<strong>Allow HTML</strong> Note that this malicious code can be inserted"
+msgstr ""
+"<strong>HTML erlauben</strong> Beachte, dass dadurch Schadcode eingefügt "
+"werden kann"
+
+#: admin/config.php:105
+msgid "Options"
+msgstr "Einstellungen"
+
+#: admin/config.php:106
+msgid "Here you can define, which buttons should appear in the editor toolbar."
+msgstr ""
+"Hier kannst Du festlegen, welche Buttons in der Editor-Toolbar erscheinen "
+"sollen"
+
+#: admin/config.php:111
+msgid "<strong>Google Fonts</strong> "
+msgstr "<strong>Google Fonts</strong> "
+
+#: admin/config.php:115
+msgid "<strong>Fontsize</strong> Enable the user, to select the fontsize"
+msgstr ""
+"<strong>Schriftgröße</strong> Erlaubt dem Benutzer, Schriftgrößen zu "
+"verwenden"
+
+#: admin/config.php:119
+msgid "<strong>Header</strong> Enable the user, to select the headertype"
+msgstr ""
+"<strong>Kopfzeilen</strong> Erlaubt dem Benutzer, den Kopzeilentyp anzupassen"
+
+#: admin/config.php:123
+msgid "<strong>Bold</strong> Enable the user, to mark text as bold"
+msgstr "<strong>Fett</strong> Erlaubt dem Benutzer, Text als Fett zu markieren"
+
+#: admin/config.php:127
+msgid "<strong>Italic</strong> Enable the user, to mark text as italic"
+msgstr ""
+"<strong>Kursiv</strong> Erlaubt dem Benutzer, Text als Kursiv zu markieren"
+
+#: admin/config.php:131
+msgid "<strong>Underlined</strong> Enable the user, to mark text as underlined"
+msgstr ""
+"<strong>Unterstrichen</strong> Erlaubt dem Benutzer, Text zu unterstreichen"
+
+#: admin/config.php:135
+msgid ""
+"<strong>Strikethrough</strong> Enable the user, to mark text as strikethrough"
+msgstr ""
+"<strong>Durchgestrichen</strong> Erlaubt dem Benutzer, Text durchzustreichen"
+
+#: admin/config.php:139
+msgid "<strong>Add URL</strong> Enable the user, to add an URL"
+msgstr ""
+"<strong>Link hinzufügen</strong> Erlaubt dem Benutzer, einen Link "
+"hinzuzufügen"
+
+#: admin/config.php:143
+msgid "<strong>Text Color</strong> Enable the user, to change the text color"
+msgstr ""
+"<strong>Textfarbe</strong> Erlaubt dem Benutzer, die Textfarbe zu bestimmen"
+
+#: admin/config.php:147
+msgid ""
+"<strong>Background Color</strong> Enable the user, to change the background "
+"color"
+msgstr ""
+"<strong>Hintergrundfarbe</strong> Erlaubt dem Benutzer, die Hintergrundfarbe "
+"von Text zu bestimmen"
+
+#: admin/config.php:151
+msgid ""
+"<strong>Align left</strong> Enable the user, to align text to the left side"
+msgstr ""
+"<strong>Linksbündig</strong> Erlaubt dem Benutzer, Text linksbündig zu setzen"
+
+#: admin/config.php:155
+msgid ""
+"<strong>Align right</strong> Enable the user, to align text to the right side"
+msgstr ""
+"<strong>Rechtsbündig</strong> Erlaubt dem Benutzer, Text rechtsbündig zu "
+"setzen"
+
+#: admin/config.php:159
+msgid "<strong>Align center</strong> Enable the user, to center text"
+msgstr "<strong>Linksbündig</strong> Erlaubt dem Benutzer, Text zu zentrieren"
+
+#: admin/config.php:163
+msgid "<strong>Align justified</strong> Enable the user, to justify text"
+msgstr ""
+"<strong>Links-, Rechtsbündig</strong> Erlaubt dem Benutzer, Text links- und "
+"rechtsbündig zu setzen"
+
+#: admin/config.php:167
+msgid "<strong>Subscript</strong> Enable the user, to show text subscript"
+msgstr ""
+"<strong>Hochgestellt</strong> Erlaubt dem Benutzer, Text hochgestellt zu "
+"setzen"
+
+#: admin/config.php:171
+msgid "<strong>Superscript</strong> Enable the user, to show text superscript"
+msgstr ""
+"<strong>Tiefgestellt</strong> Erlaubt dem Benutzer, Text tiefgestellt zu "
+"setzen"
+
+#: admin/config.php:175
+msgid "<strong>Indent</strong> Enable the user, to indent text"
+msgstr "<strong>Einrücken</strong> Erlaubt dem Benutzer, Text einzurücken"
+
+#: admin/config.php:179
+msgid "<strong>Outdent</strong> Enable the user, to outdent text"
+msgstr "<strong>Ausrücken</strong> Erlaubt dem Benutzer, Text auszurücken"
+
+#: admin/config.php:183
+msgid "<strong>ordered List</strong> Enable the user, to make an ordered list"
+msgstr ""
+"<strong>geordnete Liste</strong> Erlaubt dem Benutzer, eine geordnete Liste "
+"einzufügen"
+
+#: admin/config.php:187
+msgid ""
+"<strong>unordered List</strong> Enable the user, to make an unordered list"
+msgstr ""
+"<strong>ungeordnete Liste</strong> Erlaubt dem Benutzer, eine ungeordnete "
+"Liste einzufügen"
+
+#: admin/config.php:191
+msgid ""
+"<strong>clear Format</strong> Enable the user, to clear the formation from "
+"text"
+msgstr ""
+"<strong>Formatierung aufheben</strong> Erlaubt dem Benutzer, die "
+"Textformatierung im Editor zu löschen"
+
+#: admin/config.php:194
+msgid "Save"
+msgstr "Speichern"
+
+#: admin/help.php:20
+msgid ""
+"This plugin change the textarea in item add/edit page to a full wysiwyg "
+"editor"
+msgstr ""
+"Dieses Plugin fügt einen vollständigen WYSIWYG Editor in die Angebot "
+"erstellen/bearbeiten Seiten ein"
+
+#: admin/help.php:34
+msgid "Installation"
+msgstr "Installation"
+
+#: admin/help.php:35
+msgid ""
+"If you can read this message, you have nothing to do except to setup the "
+"plugin on the configuration page."
+msgstr ""
+"Wenn Du diese Nachricht lesen kannst, brauchst Du nichts weiter zu tun, "
+"ausser das Plugin zu konfigurieren"
+
+#: classes/jQWE.class.php:38
+msgid "Enter your description here"
+msgstr "Füge hier Deine Angebotsbeschreibung ein"
+
+#: classes/jQWE.class.php:89 classes/jQWE.class.php:150
+msgid "Fonts"
+msgstr "Schriftarten"
+
+#: classes/jQWE.class.php:91 classes/jQWE.class.php:213
+msgid "Fontsize"
+msgstr "Schriftgröße"
+
+#: classes/jQWE.class.php:93 classes/jQWE.class.php:248
+msgid "Header"
+msgstr "Kopfzeile"
+
+#: classes/jQWE.class.php:95 classes/jQWE.class.php:281
+msgid "Bold (CTRL + B)"
+msgstr "Fett (CTRL + B)"
+
+#: classes/jQWE.class.php:97 classes/jQWE.class.php:288
+msgid "Italic (CTRL + I)"
+msgstr "Kursiv (CTRL + I)"
+
+#: classes/jQWE.class.php:99 classes/jQWE.class.php:295
+msgid "Underline (CTRL + U)"
+msgstr "Unterstrichen (CTRL + U)"
+
+#: classes/jQWE.class.php:101 classes/jQWE.class.php:302
+msgid "Strikethrough (CTRL + S)"
+msgstr "Durchgestrichen (CTRL + S)"
+
+#: classes/jQWE.class.php:103 classes/jQWE.class.php:309
+msgid "Insert Link"
+msgstr "Link einfügen"
+
+#: classes/jQWE.class.php:105 classes/jQWE.class.php:315
+msgid "Textcolor"
+msgstr "Textfarbe"
+
+#: classes/jQWE.class.php:107 classes/jQWE.class.php:321
+msgid "Backgroundcolor"
+msgstr "Hintergrundfarbe"
+
+#: classes/jQWE.class.php:109 classes/jQWE.class.php:327
+msgid "Align Left"
+msgstr "Linksbündig"
+
+#: classes/jQWE.class.php:111 classes/jQWE.class.php:339
+msgid "Align Right"
+msgstr "Rechtsbündig"
+
+#: classes/jQWE.class.php:113 classes/jQWE.class.php:333
+msgid "Align Center"
+msgstr "Zentriert"
+
+#: classes/jQWE.class.php:115 classes/jQWE.class.php:345
+msgid "Justify"
+msgstr "Links- und Rechtsbündig"
+
+#: classes/jQWE.class.php:117 classes/jQWE.class.php:351
+msgid "Subscript"
+msgstr "Hochgestellt"
+
+#: classes/jQWE.class.php:119 classes/jQWE.class.php:357
+msgid "Superscript"
+msgstr "Tiefgestellt"
+
+#: classes/jQWE.class.php:121 classes/jQWE.class.php:363
+msgid "Indent"
+msgstr "Tab vor"
+
+#: classes/jQWE.class.php:123 classes/jQWE.class.php:369
+msgid "Outdent"
+msgstr "Tab zurück"
+
+#: classes/jQWE.class.php:125 classes/jQWE.class.php:375
+msgid "Ordered List"
+msgstr "geordnete Liste"
+
+#: classes/jQWE.class.php:127 classes/jQWE.class.php:381
+msgid "Unordered List"
+msgstr "ungeordnete Liste"
+
+#: classes/jQWE.class.php:129 classes/jQWE.class.php:387
+msgid "Clear Format"
+msgstr "Formatierung Löschen"
+
+#: index.php:111 index.php:117
+msgid "jQWE Plugin"
+msgstr "jQWE Plugin"
+
+#: index.php:112 index.php:119
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: index.php:113 index.php:120
+msgid "Help"
+msgstr "Hilfe"
+
+#~ msgid "PlaceholderURL"
+#~ msgstr "Platzhalter URL-Popup"
+
+#~ msgid "You can define, which buttons should appear in the editor toolbar. "
+#~ msgstr ""
+#~ "Hier kannst Du festlegen, welche Buttons in der Editor-Toolbar erscheinen "
+#~ "sollen"
+
+#~ msgid ""
+#~ "<strong>Google Fonts</strong> Enable the user, to select from predefined "
+#~ "google fonts"
+#~ msgstr ""
+#~ "<strong>Google Fonts</strong> Erlaubt dem Benutzer, vordefinierte Google "
+#~ "Schriftarten zu verwenden"
