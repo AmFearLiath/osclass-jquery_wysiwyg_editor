@@ -1,0 +1,293 @@
+/*
+Plugin Name: jQuery Wysiwyg Editor
+Plugin URI: http://amfearliath.tk/osclass-jquery-wysiwyg-editor
+Description: Add a Wysiwyg Editor to the ad create/edit pages
+Version: 1.0.1
+Author: Liath
+Author URI: http://amfearliath.tk
+Short Name: jquery_wysiwyg_editor
+Plugin update URI: jquery-wysiwyg-editor
+
+
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+Version 2, December 2004
+
+Copyright (C) 2004 Sam Hocevar
+14 rue de Plaisance, 75014 Paris, France
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+0. You just DO WHAT THE FUCK YOU WANT TO.
+*/
+#jQWE_admin .ico-jQWE_admin {
+  background-image: url("../img/admin.png") !important;
+  background-size: 100px 48px;
+  background-position: 0px 0px;
+}
+
+#jQWE_admin:hover .ico-jQWE_admin {
+  background-image: url("../img/admin.png") !important;
+  background-size: 100px 48px;
+  background-position: -50px 0;
+}
+
+.jQWE_help blockquote {
+  margin-top: 25px;
+  padding: 10px;
+  background: #fafafa !important;
+  border: 1px solid #CCCCCC;
+  background-color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.jQWE_options {
+  margin-left: 15px;
+}
+
+.jQWE_options .form-group {
+  line-height: 20px;
+}
+
+.jQWE_options .form-group label {
+  vertical-align: super;
+}
+
+.jQWE_options .form-group label.left {
+  line-height: 36px;
+  width: 85px;
+  display: inline-block;
+}
+
+.jQWE_options .form-group input[type=checkbox] {
+  height: 20px;
+  width: 20px;
+}
+
+.jQWE_options .form-group input[type=number] {
+  display: inline-block;
+  width: 100px;
+  line-height: 18px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  vertical-align: top;
+}
+
+.jQWE_options .form-group input[type=text], .jQWE_options .form-group input[type=number] {
+  height: 30px;
+  font-size: 16px;
+  padding: 2px 10px;
+}
+
+.jqwe_tabs {
+    width: 200px;
+    float: left;
+}
+.jqwe_options {
+    width: calc(100% - 200px);
+    float: left;
+}
+
+div#jqwe_settings, div#jqwe_help {
+    position: relative;
+    top: 50px;
+    left: 0;
+    width: calc(100% - 40px);
+}
+ 
+#jqwe .tab-content, #jqwe .subtab-content {
+    display: none;
+}
+
+#jqwe .tab-content.current, #jqwe .subtab-content.current {
+    display: inherit;
+}
+ 
+#jqwe ul.tabs {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: calc(100% - 40px);
+    line-height: 35px;
+    background: #000;
+    border: none;
+    margin-bottom: 20px;
+} 
+#jqwe ul.tabs li { 
+    background: transparent;
+    display: inline-block;
+    border: none;
+    list-style: none;
+    position: relative;
+    top: 1px;
+    border-bottom: 0 !important;
+} 
+#jqwe ul.tabs li a {
+    color: #c0c0c0 !important;
+    display: block;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    padding: .5em 1em;
+} 
+#jqwe ul.tabs li.current { 
+    background: transparent url(../img/uiTabsArrow.png) no-repeat bottom center; 
+    border: none;
+} 
+#jqwe ul.tabs li.current a { 
+    color: #459e00 !important; 
+}
+
+#jqwe ul.subtabs {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+#jqwe ul.subtabs li { 
+    background: transparent;
+    display: block;
+    border: none;
+    list-style: none;
+    position: relative;
+    top: 1px;
+    border-bottom: 0 !important;
+    text-align: center;
+} 
+#jqwe ul.subtabs li a {
+    color: #c0c0c0 !important;
+    display: block;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    padding: 1em;
+}
+#jqwe ul.subtabs li button {
+    margin-top: 20px;
+} 
+#jqwe ul.subtabs li.current {
+    border: none;
+} 
+#jqwe ul.subtabs li.current a { 
+    color: #459e00 !important; 
+}
+
+
+div#flashmessage {
+    position: absolute;
+    right: 20px;
+    top: 90px;
+    z-index: 100;
+    min-height: 0;
+    line-height: 21px;
+    padding: 0;
+    background: none;
+    border: none;
+}
+div#flashmessage a {
+    margin-left: 15px;
+}
+
+h2.jQWE_title i {
+    font-size: 18px;
+    padding: 2px;
+    color: red;
+}
+
+.formGroup div {
+  display: inline-block;
+}
+.formGroup div.checkSlide {
+  margin-right: 15px;
+}
+
+/* Checkboxes */
+.checkSlide input, 
+.roundRadio input, 
+.buttonSubmit input {
+    visibility: hidden;
+}
+.checkSlide {
+    width: 80px;
+    height: 26px;
+    background: #333;
+    margin: 20px 0 0;
+
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+}
+
+.checkSlide:after {
+    content: 'OFF';
+    font: 12px/26px Arial, sans-serif;
+    color: #EC0000;
+    position: absolute;
+    right: 10px;
+    z-index: 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgba(255,255,255,.15);
+}
+
+.checkSlide:before {
+    content: 'ON';
+    font: 12px/26px Arial, sans-serif;
+    color: #459e00;
+    position: absolute;
+    left: 10px;
+    z-index: 0;
+    font-weight: bold;
+}
+
+.checkSlide label {
+    display: block;
+    width: 34px;
+    height: 20px;
+
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    transition: all .4s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: 1;
+
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    background: #fcfff4;
+
+    background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+}
+
+.checkSlide input[type=checkbox]:checked + label {
+    left: 43px;
+}
